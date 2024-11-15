@@ -1,0 +1,6 @@
+Úkolem je vytvořit program, který bude vyhledávat v telefonním seznamu.
+Předpokládejme telefonní seznam, kde si ke každému číslu pamatujeme i odpovídající jméno. Chceme realizovat program, který v takovém seznamu dokáže efektivně vyhledávat. Při vyhledání zadáváme hledané jméno a program nám vrátí odpovídající číslo. Jméno nemusíme zadávat celé, stačí zadat jeho předponu (prefix). Program prohledá telefonní seznam a vyhledá v něm všechny záznamy, které vyhoví zadanému kritériu.
+Implementujte třídu Phonebook s dvěma metodami:
+search_contact(self, name: str) -> list[str] – vyhledá v databázi kontakty začínající name a vrátí list jejich telefonních čísel (reprezentovaných jako string).
+add_contact(self, name: str, number: str) -> bool – přidá do databáze kontakt s daným jménem a číslem, vrátí True, pokud byl kontakt přidán a False, pokud kontakt s takovým jménem v databázi už existoval (v takovém případě v databázi nic nezmění).
+Odevzdávejte gitový repositář s vaším kódem. Hodnotit budeme efektivitu implementace i čitelnost kódu. Odkaz na repositář pošlete na vitek.peterka@cywetadns.com
