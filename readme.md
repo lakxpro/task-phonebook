@@ -3,7 +3,7 @@
 
 A simple program that uses a Trie structure to efficiently search for phone numbers by name.
 
-## Requrements
+## Requirements
 
 **Python:** Tested on version 3.12.1
 
